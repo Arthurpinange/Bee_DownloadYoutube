@@ -11,6 +11,9 @@ There are two ways to run the program:
 python3 Youtube.py video https://www.youtube.com/watch?v=fYR9L2ZmodM c:\temp
 ```
 * Or if you prefer we create a simple menu where it will ask for each parameter. just type and download the file.
+```
+python3 Youtube.py
+```
 ### Requirements
 We use pytube to download the videos.
 ```
