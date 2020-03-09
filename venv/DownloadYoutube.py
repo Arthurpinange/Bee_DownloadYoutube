@@ -6,7 +6,7 @@ class Download:
         pass
 
     @staticmethod
-    def DownloadFile(url,path):
+    def DownloadFile(url, path):
         '''
         performs the video download and returns the file path
         :param url:
@@ -25,7 +25,7 @@ class Download:
             return "Error: check the url unknown"
 
     @staticmethod
-    def DownloadPlayList(urlplaylist,path):
+    def DownloadPlayList(urlplaylist, path):
         '''
         download videos from a playlist
         :param urlplaylist:
@@ -47,7 +47,3 @@ class Download:
                 return "Error: Path not exists"
         else:
             return "Error: no video was listed in the playlist"
-
-    @staticmethod
-    def teste():
-        print('Jesus tu esta comigo ! sara meu coraçao !')
