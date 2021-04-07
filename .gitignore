@@ -1,0 +1,6 @@
+
+# Created by https://www.gitignore.io/api/pycharm
+.idea/*
+__pycache__/*
+venv/*
+pycepbr.egg-info/*
